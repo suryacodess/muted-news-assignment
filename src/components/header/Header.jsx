@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
+    // header component
     <header
       className="w-full px-5"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", color: "white" }}
