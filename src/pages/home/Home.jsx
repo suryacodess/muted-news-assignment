@@ -9,7 +9,7 @@ export default function Home() {
   // state for movie lists page
   const [page, setPage] = useState(1); // default page - 1
   // state for loader
-  const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(true); // defalut - true
 
   useEffect(() => {
     // calling getMovies function to fetch movies
@@ -17,8 +17,8 @@ export default function Home() {
     setTimeout(() => {
       getMovies(`movie/top_rated?page=${page}`)
         .then((result) => {
+          // setting loader false
           setLoader(false);
-          console.log(result);
           // storing previous and next movie list results into the movie state
           setMovies((prev) => [...prev, ...result.results]);
         })
