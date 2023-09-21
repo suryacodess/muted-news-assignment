@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -9,11 +10,15 @@ export default function Header() {
     >
       <div className="max-w-[1400px] w-full mx-auto flex justify-between items-center py-5">
         <div className="">
-          <h1 className="text-3xl font-bold">Muted News</h1>
+          <h1 className="text-3xl font-bold">
+            <Link to="/">Muted News</Link>
+          </h1>
         </div>
         <nav>
           <ul>
-            <li>Home</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
           </ul>
         </nav>
       </div>
