@@ -56,7 +56,7 @@ export default function Home() {
         <Loader />
       ) : (
         <>
-          <div className="max-w-[1400px] w-full mx-auto grid grid-cols-5 gap-5 py-20">
+          <div className="max-w-[1400px] w-full mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 py-20">
             {/* mapping the movie list using map function */}
             {movies?.map((movie) => {
               return (

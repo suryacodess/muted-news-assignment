@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { poster_path } from "../../utils/constants";
 import { Link } from "react-router-dom";
-import { getMovies } from "../../utils/Apis";
 
 export default function Card(props) {
   return (
