@@ -9,8 +9,8 @@ export default function Card(props) {
         <img
           className="w-full object-cover hover:scale-105"
           style={{ transition: "all 0.6s ease" }}
-          src={poster_path + props.movie.poster_path}
-          alt={props.movie.name}
+          src={poster_path + props?.movie?.poster_path}
+          alt={props?.movie?.name}
         />
       </div>
     </div>
