@@ -1,3 +1,16 @@
+# To run the application on your local computer - 
+- First clone this project using the "git clone" command or download the zip file from GitHub.
+- Install npm modules by using the "npm i" command
+- then start the application using "npm start"
+
+## App Structute
+- This application consists of a total of two pages - a home page and a movie details page
+- Home -> Movie details page
+- To navigate to the movie details page click on any movie from the list that will redirect you to movie details page.
+- Movie details page -> Home
+- To navigate to the home page click on the Home or Muted News which is present in the header section. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
